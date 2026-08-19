@@ -5,13 +5,9 @@ pool:
   name: shiva
 
 steps:
-- task: Maven@4
-  inputs:
-    mavenPomFile: 'pom.xml'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    javaHomeOption: 'JDKVersion'
-    mavenVersionOption: 'Default'
-    mavenAuthenticateFeed: false
-    effectivePomSkip: false
-    sonarQubeRunAnalysis: false
+- script: echo welcome to shiva marrage
+  displayName: stage 1
+- script: echo welocme to shiva nishu marriage
+  displayName: stage 2
+- script: echo welcome to shiva nishu baby bdy
+  displayName: stage 3

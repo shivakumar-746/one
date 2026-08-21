@@ -26,8 +26,8 @@
 	</dependencies>
 	<repositories>
 		<repository>
-  <id>mydevops-feed</id>
-  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
+  <id>myfeed</id>
+  <url>https://pkgs.dev.azure.com/shivakumarpalcham/myproject/_packaging/myfeed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -43,8 +43,8 @@
 		 </snapshotRepository>
 		
 		<repository>
-  <id>mydevops-feed</id>
-  <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
+  <id>myfeed</id>
+  <url>https://pkgs.dev.azure.com/shivakumarpalcham/myproject/_packaging/myfeed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
